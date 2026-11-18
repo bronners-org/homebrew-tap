@@ -5,11 +5,11 @@ Official Homebrew tap for [Grubby](https://github.com/simonbronner/grubby) — a
 ## Installation
 
 ```bash
-# Add the tap and install Grubby:
-brew install simonbronner/tap/grubby
+# Tap first:
+brew tap bronners-org/tap
+brew trust bronners-org/tap
 
-# Or tap first:
-brew tap simonbronner/tap
+# Install
 brew install grubby
 ```
 
@@ -22,4 +22,4 @@ brew upgrade grubby
 
 ## Documentation & Issues
 
-For usage guides, configuration, or bug reports, please visit [simonbronner/grubby](https://github.com/simonbronner/grubby).
+For usage guides, configuration, or bug reports, please visit [bronners-org/grubby](https://github.com/bronners-org/grubby).
