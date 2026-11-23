@@ -1,26 +1,26 @@
 class Grubby < Formula
   desc "Terminal cockpit TUI for GitHub repositories, PRs, and workspaces"
   homepage "https://github.com/bronners-org/grubby"
-  version "25"
+  version "26"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/bronners-org/grubby/releases/download/v25/grubby_v25_darwin_arm64.tar.gz"
-      sha256 "a149a49f4dd06584c1ed675a17082f106976e79d1406b21efa3803ed4e8437b4"
+      url "https://github.com/bronners-org/grubby/releases/download/v26/grubby_v26_darwin_arm64.tar.gz"
+      sha256 "ade0c22491013a8716472ab6c0a2d194c6c0bf9300d58bb0b4ce007de9283b36"
     else
-      url "https://github.com/bronners-org/grubby/releases/download/v25/grubby_v25_darwin_amd64.tar.gz"
-      sha256 "7e3e051ab5da199e06750bd47db273811d6dbee545030d3a554e77024587f33b"
+      url "https://github.com/bronners-org/grubby/releases/download/v26/grubby_v26_darwin_amd64.tar.gz"
+      sha256 "9ea40bdc3140ef2ee3ac0846101c8eb86a930a9364ae687f0be8b03432048982"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/bronners-org/grubby/releases/download/v25/grubby_v25_linux_arm64.tar.gz"
-      sha256 "86cc49aa0733accd32735bcd581cd1a297d470ef56c34e3a7dabacbe78534a3c"
+      url "https://github.com/bronners-org/grubby/releases/download/v26/grubby_v26_linux_arm64.tar.gz"
+      sha256 "1eb555edce44615506f36caa02f3bb8a4644d489c40e1b23f78d68cbfd06947d"
     else
-      url "https://github.com/bronners-org/grubby/releases/download/v25/grubby_v25_linux_amd64.tar.gz"
-      sha256 "94835e26a3220d69e8b8bbb5afa9091d8cede74e9f072a03077a4bbc41e9a1bb"
+      url "https://github.com/bronners-org/grubby/releases/download/v26/grubby_v26_linux_amd64.tar.gz"
+      sha256 "cc32a4d5cc6034d247126b66026543f1a227da6a52675b8c82b6e333d5d012f8"
     end
   end
 
